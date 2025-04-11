@@ -10,9 +10,22 @@
 		30880F992DA6BF6F002148D9 /* O2Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = O2Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		30B7135A2DA963F800CE7630 /* Exceptions for "O2Test" folder in "O2Test" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Helpers/Info.plist,
+			);
+			target = 30880F982DA6BF6F002148D9 /* O2Test */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		30880F9B2DA6BF6F002148D9 /* O2Test */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				30B7135A2DA963F800CE7630 /* Exceptions for "O2Test" folder in "O2Test" target */,
+			);
 			path = O2Test;
 			sourceTree = "<group>";
 		};
@@ -251,10 +264,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"O2Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"O2Test/Helpers/Preview Content\"";
 				DEVELOPMENT_TEAM = 7R6MFKUCX6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = O2Test/Helpers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,10 +294,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"O2Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"O2Test/Helpers/Preview Content\"";
 				DEVELOPMENT_TEAM = 7R6MFKUCX6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = O2Test/Helpers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
