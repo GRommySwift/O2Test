@@ -8,15 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var password = ""
+    @State private var controller = SignUpViewController()
+    
+    
     var body: some View {
-        VStack {
-            PasswordInput(password: $password)
+        ZStack {
+            ScrollView {
+                SignUpView(name: $controller.name, email: $controller.email, password: $controller.password, nameIsEmpty: $controller.nameISEmpty, emailIsEmpty: $controller.emailIsEmpty, action: controller.registration)
+            }
+            .padding()
+            if controller.showPop {
+                PopupView(name: controller.name, email: controller.email, action: controller.closePop)
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
 }
+
+

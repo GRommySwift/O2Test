@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		30B7135A2DA963F800CE7630 /* Exceptions for "O2Test" folder in "O2Test" target */ = {
+		30B28AAB2DABD55C0057F232 /* Exceptions for "O2Test" folder in "O2Test" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Helpers/Info.plist,
@@ -21,10 +21,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		30880F9B2DA6BF6F002148D9 /* O2Test */ = {
+		30B28A9B2DABD55C0057F232 /* O2Test */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				30B7135A2DA963F800CE7630 /* Exceptions for "O2Test" folder in "O2Test" target */,
+				30B28AAB2DABD55C0057F232 /* Exceptions for "O2Test" folder in "O2Test" target */,
 			);
 			path = O2Test;
 			sourceTree = "<group>";
@@ -45,7 +45,7 @@
 		30880F902DA6BF6F002148D9 = {
 			isa = PBXGroup;
 			children = (
-				30880F9B2DA6BF6F002148D9 /* O2Test */,
+				30B28A9B2DABD55C0057F232 /* O2Test */,
 				30880F9A2DA6BF6F002148D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				30880F9B2DA6BF6F002148D9 /* O2Test */,
+				30B28A9B2DABD55C0057F232 /* O2Test */,
 			);
 			name = O2Test;
 			packageProductDependencies = (

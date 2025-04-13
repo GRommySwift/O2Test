@@ -8,11 +8,11 @@
 import SwiftUI
 
 enum LabelFontSize {
-    case s, m
+    case s, m, xl, title
 }
 
 enum BodyLabelFontSize {
-    case m
+    case m, xl
 }
 
 enum AppFontCategory {
