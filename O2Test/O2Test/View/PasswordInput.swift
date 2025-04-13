@@ -41,6 +41,7 @@ struct PasswordInput: View {
                 )
                 
                 Text("Password")
+                    .fontStyle(.body(.m))
                     .padding(.horizontal)
                     .offset(y: (isActive || !text.isEmpty) ? Dimension.minusOffset : Dimension.zero)
                     .animation(.spring, value: isActive)

@@ -56,6 +56,7 @@ private extension SignUpView {
                     .frame(height: Dimension.xxl).focused($isActive)
                     .background(Color("color/state/default/focus"), in: .rect(cornerRadius: Dimension.radius.input))
                 Text(title)
+                    .fontStyle(.body(.m))
                     .padding(.horizontal)
                     .offset(y: (isActive || !text.isEmpty) ? Dimension.minusOffset : Dimension.zero)
                     .animation(.spring, value: isActive)
